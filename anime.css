@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 120px;
+
+}
+div {
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    border: solid whitesmoke 15px;
+    margin: 70px;
+    animation-name: test1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes test1 {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+p{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    border: solid whitesmoke 15px;
+    animation-name: test2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 70%;
+}
+@keyframes test2 {
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
